@@ -1,0 +1,29 @@
+@media screen and (min-width: 62em){
+    .container{
+        height: 100vh;
+    }
+
+    .input-wrapper{
+        flex-direction: row;
+    }
+
+    .input-label{
+        width: 35%;
+        margin-right: .7rem;
+        text-align: left;
+        position: relative;
+    }
+
+    .error-alert{
+        position: absolute;
+        left: 1rem;
+    }
+
+    .notify-btn{
+        width: 13%;
+    }
+
+    img{
+        width: 60%;
+    }
+}
